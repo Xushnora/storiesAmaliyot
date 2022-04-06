@@ -59,10 +59,24 @@ body {
 
 .prev-btn {
     cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(26, 25, 25);
 }
-
+.prev-btn:focus {
+    background-color: red;
+    color: #fff;
+}
+.next-btn:focus {
+    background-color: red;
+    color: #fff;
+}
 .next-btn {
     cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(20, 20, 20);
 }
 
 .sliderItem {
