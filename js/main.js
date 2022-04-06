@@ -1,7 +1,6 @@
 let elSliderList = document.querySelector('.sliderList');
 let leftBtn = document.querySelector('#leftBtn');
 let rightBtn = document.querySelector('#rightBtn');
-
 let elItems = document.querySelectorAll('.sliderItem');
 
 let count = 0;
